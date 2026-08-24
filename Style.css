@@ -1,0 +1,120 @@
+body {
+    background-color: black;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    color: rgb(46, 61, 20);
+    font-size: 60px;
+    text-align: center;
+}
+
+h2 {
+    color: rgb(46, 61, 20);
+    text-align: center;
+}
+
+p {
+    color:darkslategrey;
+    text-align: center;
+}
+section {
+    background-color:silver;
+    padding: 60px;
+    margin: 20px;
+}
+.services {display: flex;
+gap: 50px;}
+.services {background-color: silver;}
+.services div {background-color: azure;
+    padding: 30px;
+    border-radius: 10px;}
+.services div {flex: 1;}
+@media (max-width: 700px) {.services {flex-direction: column;}}
+.hero {
+    background-color: #111827;
+    color: white;
+    min-height: 700px;
+    display: flex;
+    alignment-items: center;
+    justify-content: center;
+}
+.hero-content {
+    max-width: 800px;
+    text-alignment: center;
+    padding: 40px;
+}
+.hero h1 {
+    font-size: 80px;
+    line-height: 1.05;
+    margin: 20px 0;
+}
+.hero-content > p:first-child {
+    font-size: 14px;
+    letter-spacing: 2px;
+}
+.hero a {
+    background-color: white;
+    color: #111827;
+    border: none;
+    padding: 16px 30px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 30px;
+    cursor: pointer;
+    position: relative; 
+    top: 20px;
+}
+.hero a:hover { transform: translateY(-2px); }
+@media (max-width: 700px) { .hero h1 { font-size: 42px; } }
+.hero-buttons {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    margin-top: 30px;
+}
+@media (max-width: 700px) {
+    .hero-buttons {
+        flex-direction: column;
+    }
+}
+a1 {
+    display: block;
+    width: fit-content;
+    background-color: grey;
+    color: #111827;
+    border: none;
+    padding: 16px 30px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 30px;
+    cursor: pointer;
+    text-align: center;
+    margin: 20px auto 0;
+}
+.whatsapp-button {
+    background-color: #25D366 !important;
+    color: white !important;
+}
+.contact {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.contact input,
+.contact textarea {
+    padding: 15px;
+    font-size: 16px;
+    border: 1px solid #cccccc;
+    border-radius: 20px;
+}
+
+.contact textarea {
+    min-height: 150px;
+}
